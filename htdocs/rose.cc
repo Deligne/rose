@@ -142,9 +142,7 @@ int a;
 
 int main() {
 	printf("Content-Type: text/html\n\n");
-    printf("<head><bgsound <embed <bgsound src=\"/home/b/Desktop/TinyHttpd/tinyhttpd-0.1.0_for_linux/htdocs/l.mp3\" autostart=true loop=infinite> \
-    	<audio src=\"./l.mp3\" preload=\"meta\" loop autoplay id=\"bgmusic\"></audio>  \
-     <embed src=\"./l.mp3\" autostart=\"true\" loop=\"true\" hidden=\"true\"></embed>  <style>body{background-color:#000000;}</style></head>");
+    printf("<head><embed src=\"./l.mp3\" autostart=\"true\" loop=\"true\" hidden=\"true\"></embed>  <style>body{background-color:#000000;}</style></head>");
     printf("<pre>");
     for (int y = 0; y < 80; y++) {
         for (int x = 0; x < 160; x++){
